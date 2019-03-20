@@ -52,6 +52,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leading: Icon(Icons.camera_enhance),
         title: Text('Mi App de Fotos'),
       ),
       body: ListView.builder(
